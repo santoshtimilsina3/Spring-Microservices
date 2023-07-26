@@ -21,16 +21,12 @@ public class InventoryService {
     public List<InventoryResponse> isInStock(List<String> skuCode) {
         List<InventoryResponse> allInventory = inventoryRepository.findBySkuCodeIn(skuCode)
                 .stream()
-                .map(inv -> mapToInventoryResponse(inv))
-                .collect(Collectors.toList());
+                .map(inv -> InventoryResponse.builder()
+                        .skuCode(inv.getSkuCode())
+                        .isInStock(inv.getQuantity() > 0).build()
+                )
+                .toList();
         return allInventory;
     }
 
-    private InventoryResponse mapToInventoryResponse(Inventory inv) {
-        InventoryResponse invResponse = new InventoryResponse();
-        invResponse.setSkuCode(inv.getSkuCode());
-        invResponse.setInStock(inv.getQuantity() > 0);
-
-        return invResponse;
-    }
 }
