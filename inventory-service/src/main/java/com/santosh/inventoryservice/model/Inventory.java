@@ -1,25 +1,24 @@
-package com.santosh.orderservice.dto.request;
+package com.santosh.inventoryservice.model;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.lang.Nullable;
 
-import java.math.BigDecimal;
+import javax.persistence.*;
 
+@Entity
+@Table(name = "inventory")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class OrderLineItemsDto {
+public class Inventory {
 
-
-    @Nullable
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String skuCode;
-    private BigDecimal price;
     private Integer quantity;
-
 }
