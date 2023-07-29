@@ -1,0 +1,6 @@
+/home/santosh/MicroServices/microsrevices-parent/inventory-service/src/main/java/com/santosh/inventoryservice/Repository/InventoryRepository.java
+/home/santosh/MicroServices/microsrevices-parent/inventory-service/src/main/java/com/santosh/inventoryservice/dto/InventoryResponse.java
+/home/santosh/MicroServices/microsrevices-parent/inventory-service/src/main/java/com/santosh/inventoryservice/InventoryServiceApplication.java
+/home/santosh/MicroServices/microsrevices-parent/inventory-service/src/main/java/com/santosh/inventoryservice/service/InventoryService.java
+/home/santosh/MicroServices/microsrevices-parent/inventory-service/src/main/java/com/santosh/inventoryservice/Controller/InventoryController.java
+/home/santosh/MicroServices/microsrevices-parent/inventory-service/src/main/java/com/santosh/inventoryservice/model/Inventory.java

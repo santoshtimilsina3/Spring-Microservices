@@ -1,0 +1,7 @@
+com/santosh/inventoryservice/InventoryServiceApplication.class
+com/santosh/inventoryservice/dto/InventoryResponse$InventoryResponseBuilder.class
+com/santosh/inventoryservice/model/Inventory.class
+com/santosh/inventoryservice/Controller/InventoryController.class
+com/santosh/inventoryservice/dto/InventoryResponse.class
+com/santosh/inventoryservice/Repository/InventoryRepository.class
+com/santosh/inventoryservice/service/InventoryService.class

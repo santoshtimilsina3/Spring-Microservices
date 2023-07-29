@@ -1,0 +1,8 @@
+/home/santosh/MicroServices/microsrevices-parent/product-service/src/main/java/com/santosh/productservice/dto/request/response/ProductResponse.java
+/home/santosh/MicroServices/microsrevices-parent/product-service/src/main/java/com/santosh/productservice/config/ModelMapperConfig.java
+/home/santosh/MicroServices/microsrevices-parent/product-service/src/main/java/com/santosh/productservice/ProductServiceApplication.java
+/home/santosh/MicroServices/microsrevices-parent/product-service/src/main/java/com/santosh/productservice/dto/request/ProductRequest.java
+/home/santosh/MicroServices/microsrevices-parent/product-service/src/main/java/com/santosh/productservice/model/Product.java
+/home/santosh/MicroServices/microsrevices-parent/product-service/src/main/java/com/santosh/productservice/service/ProductService.java
+/home/santosh/MicroServices/microsrevices-parent/product-service/src/main/java/com/santosh/productservice/Repository/ProductRepository.java
+/home/santosh/MicroServices/microsrevices-parent/product-service/src/main/java/com/santosh/productservice/Controller/ProductController.java
